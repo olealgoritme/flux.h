@@ -124,12 +124,13 @@ FluxKanban    multi-column kanban board
 
 ## Credits
 
-This is an original C99 implementation inspired by
-[Bubble Tea](https://github.com/charmbracelet/bubbletea) by
+Written by xuw (olealgoritme).
+
+Inspired by [Bubble Tea](https://github.com/charmbracelet/bubbletea) by
 [Charm](https://charm.sh). The original Go library pioneered the Elm
 Architecture for terminal applications. flux.h follows the same architectural
 philosophy but is written from scratch for C99.
 
 ## License
 
-[MIT](LICENSE)
+Copyright (c) 2026 xuw (olealgoritme). [MIT](LICENSE)

@@ -21,6 +21,7 @@
  *   Update() → (Model, Msg) → FluxCmd   pure state transition
  *   View()   → Model → string          render into buf
  *
+ * Copyright (c) 2026 xuw (olealgoritme)
  * LICENSE: MIT
  */
 #ifndef FLUX_H
