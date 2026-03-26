@@ -1,0 +1,7 @@
+demo
+*.o
+*.a
+*.so
+*.dylib
+.DS_Store
+kanban.csv
