@@ -122,6 +122,10 @@ FluxTable     scrollable table with headers
 FluxKanban    multi-column kanban board
 ```
 
+## Built with flux.h
+
+- [watt](https://github.com/olealgoritme/watt) — per-process power monitoring TUI (RAPL/MSR)
+
 ## Credits
 
 Written by xuw (olealgoritme).
