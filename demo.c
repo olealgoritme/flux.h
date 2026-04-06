@@ -736,7 +736,8 @@ static void render_cards(App *a, FluxSB *sb) {
         char *lines[3][16]; int lnc[3]={0,0,0};
         char tmp[3][2048];
         for(int i=0;i<nbox;i++) {
-            strncpy(tmp[i],boxes[i],sizeof tmp[i]-1);
+            memcpy(tmp[i],boxes[i],sizeof tmp[i]);
+            tmp[i][sizeof tmp[i]-1] = '\0';
             for(char *p=strtok(tmp[i],"\n"); p&&lnc[i]<16; p=strtok(NULL,"\n"))
                 lines[i][lnc[i]++]=p;
         }
