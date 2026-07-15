@@ -1,6 +1,6 @@
 # flux.h
 
-**A single-header C99 TUI framework for building AI agent interfaces.**
+**An experimental single-header C99 TUI framework, used across various toy projects.**
 
 Single-header C99 · Zero runtime dependencies (libc + pthreads) · ~95 widgets · MIT license · Linux / macOS / FreeBSD
 
@@ -8,17 +8,17 @@ Single-header C99 · Zero runtime dependencies (libc + pthreads) · ~95 widgets 
 
 ## What is flux.h
 
-flux.h is a single-header terminal UI library for C99, inspired by the Elm
-Architecture (init / update / view) and by storm / React-Ink for the widget
-catalogue. Drop one file into your project, define `FLUX_IMPL` once, and you
-have a full-fidelity TUI: cell renderer, diff engine, layout, mouse,
-keyboard, scrolling, tabs, theme, and ~95 ready-made widgets.
+flux.h is an experimental single-header terminal UI library for C99, inspired
+by the Elm Architecture (init / update / view). Drop one file into your
+project, define `FLUX_IMPL` once, and you have a full-fidelity TUI: cell
+renderer, diff engine, layout, mouse, keyboard, scrolling, tabs, theme, and
+~95 ready-made widgets.
 
-It is built specifically for the kinds of UIs that AI agents and developer
-tools need today: chat composers, streaming text, token / cost meters,
-diff blocks, approval prompts, op trees, command palettes, status lines,
-charts, and markdown viewers. The widgets exist because the apps need
-them — not because they map nicely onto a React tree.
+It grew out of a handful of toy projects, so the widget catalogue is broad and
+practical: chat composers, streaming text, meters, diff blocks, op trees,
+command palettes, status lines, charts, and markdown viewers. The widgets
+exist because the projects needed them - not because they map nicely onto a
+React tree.
 
 Everything is **width-correct**. Every widget honours an explicit
 "exactly N display cells per row" contract that is ANSI- and UTF-8-aware,
