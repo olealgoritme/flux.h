@@ -1,0 +1,23 @@
+demo
+*.o
+*.a
+*.so
+*.dylib
+.DS_Store
+kanban.csv
+
+# Test binaries
+tests/stress_test
+tests/mouse_parse_test
+tests/rate_test
+
+# Local scratch (not part of the project)
+.claude/
+storm/
+tasks/
+tests/input_fuzz
+tests/render_test
+tests/resize_fuzz
+ai_demo
+tests/__pycache__/
+tests/composer_test

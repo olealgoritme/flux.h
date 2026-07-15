@@ -1,0 +1,11 @@
+t=0.0 expo=0.0000 cubic=0.0000 back=0.0000 bounce=0.0000 spring=0.0000
+t=0.1 expo=0.5000 cubic=0.0040 back=0.4088 bounce=0.0756 spring=0.7571
+t=0.2 expo=0.7500 cubic=0.0320 back=0.7058 bounce=0.3025 spring=1.3313
+t=0.3 expo=0.8750 cubic=0.1080 back=0.9071 bounce=0.6806 spring=1.2701
+t=0.4 expo=0.9375 cubic=0.2560 back=1.0290 bounce=0.9100 spring=0.9823
+t=0.5 expo=0.9688 cubic=0.5000 back=1.0877 bounce=0.7656 spring=0.8701
+t=0.6 expo=0.9844 cubic=0.7440 back=1.0994 bounce=0.7725 spring=0.9448
+t=0.7 expo=0.9922 cubic=0.8920 back=1.0802 bounce=0.9306 spring=1.0316
+t=0.8 expo=0.9961 cubic=0.9680 back=1.0465 bounce=0.9400 spring=1.0401
+t=0.9 expo=0.9980 cubic=0.9960 back=1.0143 bounce=0.9881 spring=1.0053
+t=1.0 expo=1.0000 cubic=1.0000 back=1.0000 bounce=1.0000 spring=0.9845
